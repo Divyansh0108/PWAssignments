@@ -1,0 +1,15 @@
+1. Computer is a machine that can be used or programmed for storing and processing data 
+depending on the specification of the system, in binary forms according to the instructions
+given to it by the programmer or the user.
+2. Ram, known by random access memory is made of semiconductor material like the cpu,
+which is used between the cpu and hdd to increase the speed of data flow from hdd to cpu. 
+Its also classified as a volatile memory meaning the data stays on it as long as the ram is 
+given power.
+3. Data is typically stored in HDD or SSD or SHDs in computers, and also on ram for a specific 
+period of time.
+4. Its keyboard
+5. Output device generate response based on the input given by the user. Ex, monitor, speaker 
+etc
+6. Its mouse
+7. Machine language or binary language
+8. Input devices input the signals from the user end
