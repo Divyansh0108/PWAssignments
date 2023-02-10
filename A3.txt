@@ -1,0 +1,17 @@
+1. By typing git --version or git version on cmd
+2. you can initialise a new git repository by the git init in the desired project location
+3. To tellgit about your name and email, type:-
+
+> git config --global user.name "Divyansh"
+
+> git config --global user.email "divyansh@gmail.com"
+
+4.to add a file to staging area, just type git add . to add all the files present
+
+5. to remove a file from staging area, just type, git rm --cached <file name>
+
+6. to make a commit, type git commit -m "with a suitable message"
+
+7. to send your changes to remote repository, you can use command git push origin main
+
+8. difference between clone and pull is, clone copies the entire file folder from repo to system, whereas pull being a mixture of fetch and merge, adds any new changes made to that file.
