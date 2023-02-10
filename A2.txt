@@ -1,0 +1,8 @@
+1.git is a version control system, DVCS to be exact, which tracks the changes made in any files or document uploaded from your system to the repository.  
+2. Version control system tracks the changes made in any files or document uploaded from your system to the repository
+3. Github is a remote repository which works for version control of GIT
+4.Bitbucket.GitLab.Perforce.Beanstalk.Amazon AWS CodeCommit.Codebase.Microsoft Azure DevOps.SourceForge.
+5. they are of two types, central, distributed
+6. Advantages of git are: reversal of code is possible, comparing code changes, maintains a record of changes done by and when.
+7.A Git repository tracks, manages, and saves the history of all changes and modifications made to the files in a Git repo.
+8. To initialize a repository, you just need to fire up the git bash module and type git init within the desired folder.
