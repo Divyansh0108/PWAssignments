@@ -1,0 +1,19 @@
+1.Statically typed is language in which memory of variable is provided at time of compilation for example C, C++, Java.
+Dynamically typed is language in which memory for variable is provided at the time of execution for example Python, php, Js
+
+2.Variable in java is the memory location given to store data values of different data types.
+
+3. To assign value to variable, declare it using the required data type and use '=' to initialise its value.
+
+4. Primitive data types in java are the data types which are present in library by default, like int float double etc, means they arent defined by user.
+
+5. Identifiers in java are the names which are given to functions or variables in java to IDENTIFY them.
+
+6. Operators in java are used to perform arithmatic operations in java like mod, add, sub, mul, div etc. 
++
+*
+-
+/
+%
+
+7.Increment and decrement operators are of two types, post and pre respectively. only difference is that, in pre, we can use the changed values instantly in the expression, but in post, value of the variable itself is increased but it doesnt reflect in the expression instantly. for example, ++a, --a, a++, a-- 
