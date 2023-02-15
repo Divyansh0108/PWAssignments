@@ -1,0 +1,6 @@
+1.set of some rules or syntax which instructs or communicates with a computer in the machine language to get the task done.
+2.We need a programming language to communicate with the computer to perform specific tasks, as we humans cant understand 01 or machine language to a large extent, we use a programming language to communicate with it.
+3.java is wora, write once run anywhere, it is portable, object oriented, ie, it can perform operations like encapsulation, abstraction, polymorphism, inheritance etc., it is robust and secure as well/
+4.Object is an instance of a well defined class.
+5 Class acts as a blueprint of objects and provides it with the features and adjectives which define it thoroughly.
+6.Main method in java is the method which is predefined in jvm and is the entry point for the execution of the program. Every other method or function can be called from the main method itself.
