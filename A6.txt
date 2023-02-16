@@ -1,0 +1,26 @@
+1. Conditional operators work on two operands and are usually used in conditional statements for code execution.
+2. on basis of number of operands, there are two kinds of operators namely unary and binary.
+3. Switch case helps us to select one of the many code blocks present during the execution. You can execute one or many statements depending upon your selection of statements or choice of break statements.
+4. It follows the BEDMAS rule, according to that, division, multiplication and modulous have greater precedence over addition and substraction operators.
+5. Conditional statements in java are the executable set of codes which depend or rely on certain conditions.
+6. if(condition)
+   {
+    //code;
+   }
+   else
+   {
+   //code;
+   }
+7. 3 types of iterativve statements are for, while, do-while.
+8. difference between for and do while is that, for is entry controlled and do while is exit controlled, for is executed only if the condition is true, do while is executed at least once even if the given condition is false.
+9. 
+public class numbers
+{
+public static void main(String []args)
+{
+for(int i=1;i<=10;i++)
+{
+System.out.println(i);
+}
+}
+}
