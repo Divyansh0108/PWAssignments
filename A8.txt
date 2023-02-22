@@ -1,0 +1,6 @@
+1.To create an object in java, we use the new keyword. <classname> <object name> = new <classname>()
+2. New is a java keyword that is used to create an object and allocate memory for it in the heap. 
+3. there are 3 types of variables in java, namely, instance, local, static.
+4. instance variables are initialised outside the functions, in the class, local variables are declared inside a particular function in which it has to work. Function scope is the scope for local variables whereas instance variables can be used throughout the class.
+5. for local variables, memory area is allocated in stack, whereas for the instance variable, memory is allocated inside the heap.
+6. Method overloading is a technique used to reduce the complexity of the java program by using the same function name with different number or type of parameters.
