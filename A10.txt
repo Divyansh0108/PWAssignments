@@ -1,0 +1,17 @@
+1. For int its 0, for boolean its false, for string its null, for char its unicode \u0000 for double its 0.0.
+
+2. No the size can never be negative.
+
+3. The array is a reference data type so it has to be stored in the Heap area.
+
+4. There are 2 major disadvantages, one, size cannot be modified once it is declared, and second, all elements should be of same type as the array type.
+
+5. Anonymous array in java is array that has no name, which is created just for instance use, and the array elements can be passed directly as follows in the example:
+
+(new int[]{1,2,3,4,5})
+
+we can only use anonymous array when it is confirmed that we have only one array to use at one time.
+
+6. Traversing in java can be performed using two types, for loop and for each loop. Foreach loop is also called as the enhanced for loop.
+
+7. length is the property of an array while the length() is the method of the string class.
