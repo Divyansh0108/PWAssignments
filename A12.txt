@@ -1,0 +1,75 @@
+1) to take input from the user, 
+Scanner read = new Scanner(System.in);
+String st = read.nextLine();
+
+OR IF ONLY ONE WORD IS TO INPUT,
+String st = read.next();
+
+2) There are two methods to do so, first is by concat function and other by using "+" operator.
+Ex:-
+String st = "World"
+String s = "hello".concat(st);
+
+OR
+
+String s = "hello" + "world";
+
+3)to find the length of a string we use the length() function with the desired string.
+ex:- 
+String s = "hi";
+int x = s.length();
+
+4) we use the compareTo() function.
+ex:- String s1 = "hi"
+String s2 = "Hi"
+int c = s1.compareTo(s2);
+
+5) Program:-
+
+import java.util.*;
+public class Lengthfinder
+{
+    public static void main(String []args)
+    {
+        String s = "refrigerator"
+        int l = s.length();
+        System.out.println("Length of the string is:- " + l);
+    }
+}
+
+6) import java.util.*;
+public class Lengthfinder
+{
+    public static void main(String []args)
+    {
+        String s = "Umbrella";
+        int l = s.length();
+        for(int i=0;i<l;i++)
+        {
+            char ch = s.charAt(i);
+            if(ch==e)
+            System.out.println("Present at index:-" + i);
+        }
+    }
+}
+
+7) import java.util.*;
+public class Lengthfinder
+{
+    public static void main(String []args)
+    {
+        String s = "hello, have a good day";
+        String s1="";
+        int l = s.length();
+        for(int i =0;i<l;i++)
+        {
+            char ch = s.charAt(i);
+            if(ch=='a' || ch== 'e'|| ch== 'i'|| ch== 'o'|| ch=='u'||ch== 'A'||ch=='E'||ch== 'I'||ch==  'O' ||ch== 'U')
+            s1=s1+ch;
+        }
+        System.out.println(s1);
+    }
+}
+
+
+====== thank you ======
