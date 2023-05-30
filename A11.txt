@@ -1,0 +1,8 @@
+1. String in java is a datatype which is formed by the collection of characters or acts as an array with character elements; which is usually represented in "".
+2. there are 2 types of strings in java, which are mutable or changeable, and immutable or not changeable.
+3. There are 3 ways to create a string object in java, String, StringBuffer, or StringBuilder.
+4. String constant pool is an area inside the Heap area which corresponds to making string objects, however, only one object is made for a string, which means the string cannot be duplicated in side the scp.
+5. Mutable means they can be changed later in the program if desired and they are stored in the common heap area, whereas immutable objects lie in string constant pool, which means they cannot be changed.
+6. The scp or the String constant pool resides in the heap area of the memory.
+
+=================== THANK YOU =======================
