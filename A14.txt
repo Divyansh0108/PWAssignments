@@ -1,0 +1,46 @@
+1) Mutable String in java is string which can be changed inside a program without referring to another object. Mutable means changeable. This is achieved by the use of 2 ways, creating by StringBuilder or using StringBuffer.
+
+Example:- StringBuilder str = new StringBuilder("Abc");
+
+2)
+
+import java.util.*;
+public class reverse
+{
+public static void main(String[] args)
+{
+        StringBuilder str = new StringBuilder("pw skills");
+        str.reverse();
+        System.out.println(str);
+}
+}
+
+3)
+
+class reverseNoChangeinPosition {
+    public static void main(String[] args) {
+        StringBuilder s1 = new StringBuilder("Think");
+        StringBuilder s2 = new StringBuilder("Twice");
+        s1.reverse();
+        s2.reverse();
+        String s3 = s1+" "+s2;
+        System.out.println(s3);
+    }
+}
+
+4)
+import java.util.*;
+class sorting {
+    public static void main(String[] args) {
+        String s1 = "PW Skills";
+        s1=s1.toLowerCase();
+        char ch[] = s1.toCharArray();
+        Arrays.sort(ch);
+        String s="";
+        for(int i=0;i<ch.length;i++)
+        {
+            s=s+ch[i];
+        }
+        System.out.println(s);
+    }
+}
