@@ -1,0 +1,32 @@
+1)
+Whenever a common copy of variable has to be shared among all objects of class, we use the static variable bcz during class loading memory will be located in heap, and it will make the overall program more efficient.
+
+2)
+Class loading is the process of loading the class files into java virtual machines at runtime. 
+
+java program executes as follows:-
+Linking,
+Loading,
+and Initialisation.
+
+3)
+No we cant declare the local variables as static variables because they are prone to change which can throw error during the runtime.
+
+4)
+Since the static member is a class member in a way, so it executes with the execution of the class file, then the jvm calls main method.
+
+5)
+A static method is also called a class method because these are available at class level, and these get memory in the method area along with class file; And also because it belongs directly to the class instead of belonging to an instance of the class.
+
+6)
+Static blocks get executed automatically at the loading of class file, and these blocks are generally used in order to initialise the static variables in java.
+
+7)
+Static variables have a fixed value, instance variables dont. 
+Static variables get initialised in static block, instance variables in introductory body of class or any particular method.
+Static variables are shared by the class since they become global in nature, instance variables are locally available to a method or block.
+Static variables are accessed by calling the class name they are in, instance variables can be called directly by referring to the object.
+
+8)
+Static members belong to a class, instance members belong to an instance or object of a class.
+Static members including methods, variables etc, are initialised or declared once and can be used globally if the value remains constant, instance variables are however prone to change and are used by particular method.
