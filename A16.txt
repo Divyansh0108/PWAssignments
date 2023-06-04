@@ -1,0 +1,35 @@
+1)
+Encapsulation in java is binding of all the methods and data into a single unit. It is also termed as data hiding because it ensures controlled access to the methods so that it is not exposed direcetly.
+
+2)
+The Encapsulation have certain features like:-
+using of getters and setters
+combination of data hiding and data abstraction
+use of private members to implement the same
+shadowing problem tackled by THIS keyword.
+
+3)
+Getter and setter methods are user defined methods which are used to extract and set the values of the private variables respectively.
+
+getter:--   public int getData()
+setter:--   public void setData(int a)
+
+4)
+"THIS" keyword is used when the name of instance variable and local variable have same name, ie, there is shadowing problem. This keyword refers to the current calling object so that the jvm knows the difference between the two variables.
+
+5)
+Advantages are:-
+. it makes the program secure
+. maintainability and modularisation becomes easy
+. provides fexibility to the user
+. can be enhanced easily
+
+6)
+To achieve encapsulation in java, we basically try to limit the access of data or methods from outside entities; and to implement that we use the private members which control the access.
+
+example:- 
+
+class test
+{
+private String place; // encapsulation done
+}
