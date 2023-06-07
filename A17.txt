@@ -1,0 +1,37 @@
+1)
+Constructor in java is a function with same name as the class but with no return type.
+
+2)
+Constructor chaining in java is the process of calling 2 or more constructors sequentially with the help of "this()" and "super()" method call.
+
+3)
+No, we cannot call a subclass constructor from a superclass constructor.
+
+4)
+It will generate compilation error since constructors cant have any return type, only methods are allowed to have return type.
+
+5)
+No argument constructor is the user-defined or user-made constructor which is NOT AUTOMATICALLY created by java, and it takes 0 arguments or parameters as input.
+
+6)
+The main difference is, no arg constructor is created by the programmer as a constructor with no-arguments or parameters when it CAN have some if programmer wants, whereas a default constructor NEVER takes parameters and is created automatically in the program.
+
+7)
+We need constructor overloading when we want to create multiple instances of class (constructor) with different parameters or data types, where overloading helps us.
+
+8)
+When in java program we dont create a constructor then java compiler automatically creates a no-arg constructor in the background which is not visible to the user. 
+
+example:-
+public class abcd {
+
+  Double p;
+  String t;
+
+  public static void main(String[] args) {
+
+  //The default constructor is being called here
+
+  abcd obj = new abcd();
+  }
+}
