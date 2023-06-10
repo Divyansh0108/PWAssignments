@@ -1,0 +1,14 @@
+1)
+Interface can be thought of as a class which only takes abstract methods and constant members.It basically helps to achieve complete abstraction.
+
+2)
+For methods in interfaces only public, and ABSTRACT modifiers are available.
+
+3)
+Interface is used to achieve complete abstraction, and it can act like multiple inheritance ( which is not allowed in java ).
+
+4)
+Abstract class can have abstract and non-abstract both kind of methods but interface only allows abstract methods.
+Abstract class uses abstract keyword and interface is used to declare interface.
+abstract members can have private public protected members etc, but interface can have public by default
+abstract can have static non static or final and non final members but interfact can only have static and final members.
