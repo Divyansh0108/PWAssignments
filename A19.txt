@@ -1,0 +1,18 @@
+1)
+Lambda expression in java is used to optimise the code by making it shorter and concise, 
+example:- str->
+      System.out.println(str);
+
+The class used here has no name so it is also called anonymous inner class.
+
+2)
+Lambda expression can be passed in a method when it is expecting a functional interface ONLY. 
+
+3)
+A functional interface is a type of interface which contains only one abstract method. 
+
+4)
+Benefit of lambda expression is that it can pass a code block in a method or it can make the code shorter.
+
+5)
+No it is not mandatory as there are 3 types of lambda expressions in which one of them is NO PARAMETER syntax.
