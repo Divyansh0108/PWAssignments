@@ -1,0 +1,29 @@
+1)
+Multi threading means using multiple threads in the program, or the cpu's power to execute multiple threads simultaneously while sharing the same resources available in the system's hardware. Multi threading is important as it provides multiple threads to shorten the time used in processing by the CPU. It divides a program into smaller parts or threads to make the execution faster and time efficient.
+
+2)
+The benefits of multi-threading are:-
+Saves time
+if one thread stops working or is blocked, other threads do not and program keeps on executing.
+it increases the use of the resource available and increases the overall speed of execution.
+improves the overall performance of the program.
+in matters of being resource intensive it is lesser in comparison to other process being executed at same time.
+
+3)
+Thread is also know as a single or independent line of execution or the smallest processing units available for the execution of the whole program. Using multiple threads we can make the use of all the resources of all cpu resources available for the system.
+
+4)
+The two ways are :- extending the thread class
+                    Implementing runnable interface in java
+
+5)
+Thread is smallest unit or the single line of execution.
+Process is just a program which is queued for the execution
+
+6)
+Daemon threads are creating using the thread class setDaemon(true), which is used to mark current thread as daemon thread. 
+
+7)
+wait()- is non-static function which makes the current thread wait till other threads call notify method. It must be called from synchronized manner only.
+
+sleep()- is a static method which stops the current thread's execution for a particularly specified period of time.
