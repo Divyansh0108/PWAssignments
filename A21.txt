@@ -1,0 +1,32 @@
+1)
+Collection framework in java is a collection or combination of various classes and interfaces which are used to store, delete, retrieve or manipulate the data in the form of objects. These are of various types like ArrayList, stack, etc etc and interfaces include the use of queue, list etc
+
+2)
+arraylist is needed when you need to store and retrieve the data, while linkedlist can be put to better use by manipulating it.
+array list takes lesser memory because it stores data in form of object only, linkedlist takes more memory because it stores object as well as its address too.
+arraylist uses dynamic array whereas linkedlist uses doubly linked list.
+
+3)
+iterator traverses element in uni direction or forward only, listiterator can traverse in forward and backward both directions.
+iterator can  be used in list, queue etc.but listiterator is used in list only.
+
+4)
+iterator is fall-fast, enumeration is not.
+iterator can perform remove operations while traversing but enumeration can only traverse without any operations.
+iterator is slower and enumeration is faster.
+
+5)
+list contains duplicate elements but set doesnt
+list can allow null values but set allows only one null value
+list preserves the insertion order but set is unordered
+
+6)
+HashSet is unordered while treeset is sorted
+HashSet uses less memory than treeset
+hashset has no ordered iteration but treeset iterations are ordered
+
+7)
+array can store primitive data types but arraylist stores objects
+array's size is fixed but arraylist has dynamically growing size
+arrays can be accessed in better manner so they have better performance as compared to arraylist
+array can have members of only single data type but array list can have multiple data type elements.
