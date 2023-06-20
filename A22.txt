@@ -1,0 +1,33 @@
+1)
+Map in java is collection which stores data as key-value pairs, in which values can be duplicate but the keys are unique.
+
+2)
+These are:- Hashmap, treemap, linkedhashmap
+
+3)
+Hashmap is unordered collection whereas treemap is sorted collection 
+
+4)
+we can check using containsKey() or get(). First one returns boolean values where as get method returns the value which that key is associated with
+
+5)
+Generics are used to provide type safety in java with the collections such as arraylist etc. The type is often written in the :_ <>
+
+6)
+some of the benefits are:-
+reusable code
+type safety
+improved performance
+
+7)
+generic class in java can work with different types of data and makes the process typesafe
+
+8)
+type parameter in java generics is used as a holder for type of data used by the generic class. example:= <T> or <N>
+
+9)
+generic method can work with different types of data just like generic class.
+
+10)
+ArrayList is non generic but ArrayList<T> is generic. second one provides the type safey but the first one does not.
+second one can store only one type of elements but first one can store any type of element.
