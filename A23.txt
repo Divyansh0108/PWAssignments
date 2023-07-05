@@ -1,0 +1,107 @@
+1)
+
+import java.time.*;
+public class test
+{
+public static void main(String[] args)
+{
+LocalDate currentDate = LocalDate.now();
+System.out.println(currentDate);
+LocalTime currentTime = LocalTime.now();
+System.out.println(currentTime);
+}
+}
+
+
+2)
+
+import java.time.*;
+public class formatting
+{
+public static void main(String[] args)
+{
+LocalDate date = LocalDate.now();
+DateTimeFormatter fm = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+String newDate = date.format(fm);
+System.out.println("Formatted Date: " + newDate);
+}
+}
+
+
+3)
+
+Streams dont store data, Collections store the data which it has in a data structure like heap or list
+Streams can be used one time only, whereas collections can be used any number of times.
+Streams can use functional interfaces like lambda expressions which makes the code shorter, and more presentable, whereas Collections don't use any type of functional interfaces.
+
+--------------EXAMPLES-----------
+
+In case of collctions:-
+
+import java.util.*;
+import java.io.*;
+
+class test2 {
+public static void main(String[] args)
+{
+List<String> Car = new ArrayList<>();
+Car.add("Mercedes");
+Car.add("Audi");
+Comparator<String> comp = (String s1, String s2) -> s1.compareTo(s2);
+Collections.sort(Car, comp);
+for (String CarName : Car) {
+System.out.println(CarName);
+}
+}
+}
+
+
+In case of Streams:-
+
+import java.util.*;
+import java.io.*;
+
+class test3 {
+public static void main(String[] args)
+{
+List<String> Bike = new ArrayList<>();
+Bike.add("Ducati");
+Bike.add("BMW");
+Bike.stream().sorted().forEach(
+System.out::println);
+}
+}
+
+
+4)
+
+Enum can be used to declare or define a group or groups of constants of different datatype, which are likely to be defined as public STATIC FINAL fields. Every enum contains are set of similar values which are expected to never change, such as names of days of week, or names of months or the name of planets in the solar system etc etc. Also, the values inside the enum, if strings or characters, are written in UPPERCASE as per the convention. 
+
+For example:-
+
+class Test4
+{
+public enum Month
+{
+JAN, FEB, MAR, APR, JUN, JUL, AUG, SEP, OCT, NOV, DEC;
+}
+
+public static void main(String[] args)
+{
+for( Month M : Month.values())
+{
+System.out.println(M);
+}
+}
+}
+
+
+5)
+
+Built-in annotations in java are used to provide some additional information to the java compiler, as they are already present inside java lying "pre-coded".
+some of them are as follows:- 
+@Override
+@FunctionalInterface
+@Deprecated
+@Retention
+@Target
