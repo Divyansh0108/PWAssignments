@@ -1,0 +1,40 @@
+1)
+Input Output stream in java is a stream which can be used to perform reading and writing data from and to a specified destination.
+
+2)
+methods of output stream are:-
+write();
+flush();
+close();
+
+3)
+Serialization in java is the process of converting an object into stream of bytes in order to make it more secure for transferring it over a network or storing it in a database.
+
+4)
+Serializable  interface in java is a marker interface in java which can be used to mark classes that can be serialized and converted into bytes. Since it is a marker interface it doenst have any methods.
+
+5)
+Deserialization is the opposite process of Serialization, means it is the process that converts the data in bytes to object instance. Deserialization can only be achieved on data which has been serialized earlier.
+
+6)
+Serialization in java is achieved by the implementation of "Serializable" interface. When an object is serialized its data is converted into stream of bytes which is un-readable for the humans.
+
+7)
+Deserialization in java is achieved by reading the data in bytes and recreating original object with the help of the available data. This is majorly done by calling the readObject() method.
+
+8)
+By marking a member transient, we can avoid it from taking part in the Serialization.
+
+9)
+These are:-
+FileInputStream
+FileOutputStream
+FileReader
+FileWriter
+
+
+10)
+Serializable is a marker interface, Externalizable is not.
+Constructor is not called during DeSerialization, Constructor is called during Deserialization.
+We can customise default process by defining methods in our class. We need to override externalizable interface's methods.
+
