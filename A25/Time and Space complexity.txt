@@ -1,0 +1,105 @@
+1)
+Instead of using nested loops like that, we can use the formula for the sum of first n-natural numbers. 
+so instead of the time complexity being O(n^2) because of two loops, we can optimise it down to O(1) since no loop will be used.
+
+
+2)
+we are given:-
+T(n) = 3T(n-1) + 12n
+we will substitute the values in the given relation by keeping n =1
+since T(0) is 5 so,
+T(1) = 3T(0) + 12
+then
+T(1) = 15 + 12 = 27
+then using this we find T(2)
+T(2) = 3*T(1) + 12 * 2
+then
+T(2) = 3 * 27 + 24 = 81 + 24 = 105
+So the final answer will be:-
+T(2) = 105.
+
+
+3)
+let us decrease the value by 1,
+T(n) = T(n - 1) + c
+T(n - 1) = T(n - 2) + c
+T(n - 2) = T(n - 3) + c
+|
+|
+|
+T(2) = T(1) + c or maybe T(3) = T(2) + c
+
+When we add the above equations we see that,
+T(n) = T(1) + cn
+since we have no knowledge about T(1), then let's assume it to be a constant term,
+T(n) = k + cn, [where 'k' is the constant]
+So by inferring to the relation, T(n) must be <= cn because we add k to it.
+
+Therefore we can say that: -
+T(n) = O(n).
+
+
+4)
+By comparing the standard structure of the formula, we can obtain the values of a, b ,p, and k
+T(n)=16T(n/4)+n2logn
+a=16, b=4, k=2, p=1
+bk=42=16
+a=bk
+p>-1
+T(n)=theita(n*log(a*b)*log(p)+1*n)
+T(n)=theita(n*log(164)*log1+1n)=theita(n*1/2*log2n)
+
+
+5)
+given relation is:
+T(n) = 2T(n/2) + n
+
+step:! 
+give problem size is n, divided into 2 subproblems of n/2 size
+then they will divided into n/4
+so levels will keep increasing till the levels reduce to 0 
+
+step:2
+level 0 cost is n
+level 1 cost if n/2 + n/2 = n
+level 2 cost is n/4 + n/4 + n/4 + n/4 = n
+|
+|
+
+step:3
+level 0 size of sub problem = n/20
+level 1 size of sub problem = n/21
+level 2 size of sub problem = n/22
+
+size fashion is n/2i
+2x=n
+take log both sides
+x = log n base 2
+
+step:4
+last level cost is T(1) x n = theita(n)
+
+step:5
+n x log n base 2 + theita(n)
+n log n base 2 + theita(n)
+theita( n log n base 2)
+
+Hence the recurrence relation is solved.
+
+
+6)
+given relation is T(n) = 2T(n/2) + K
+first we draw the recursive tree
+then we calculate the height of the tree by n = 2^k
+
+then take log both sides 
+we get  k = log n base 2
+
+then we calculate cost for every level which is in fashion k + k..=nk
+then we calculate the number of nodes at each level
+
+while calculating the final cost we come across a gp with a=1 and r=2 then we get 
+T(n) = k * (1 / (2 - 1)) + O(n)
+
+since T(n)<= O(n)
+so T(n)<= O(n)
