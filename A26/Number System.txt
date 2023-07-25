@@ -1,0 +1,106 @@
+1)
+
+2 | 5
+2 | 2 -1
+2 | 1 -0
+
+Resulting binary representation is 101
+
+
+2 | 10
+2 | 5 -0
+2 | 2 -1
+2 | 1 -0
+Resulting binary representation is 1010
+
+
+
+2)
+
+15. 
+Converting it in binary 1111 as it is more than 1 set bits in the binary representation therefore it’s
+not power of 2.
+
+32.
+Converting it to binary 10000 as it has only 1 set bit therefore its power of 2.
+
+
+3)
+import java.util.*;
+
+public class System
+{
+	public static void main(String[] args) 
+    {
+		int number;
+		 System.out.println("Enter the integer: ");
+        Scanner s = new Scanner(System.in);
+        number = s.nextInt();
+        
+        if((number & 1) == 1) 
+        System.out.println("Given number is odd.");
+        else  
+        System.out.println("Given number is even.");
+	}
+}
+
+
+
+4)
+import java.util.*;
+
+public class System
+{   
+    public static int countSetBits(int n)
+    {
+        int count = 0;
+        while (n > 0) 
+        {
+            count += n & 1;
+            n >>= 1;
+        }
+        return count;
+    }
+	public static void main(String[] args) 
+    {
+		 int number;
+		 System.out.println("Enter the integer: ");
+         Scanner s = new Scanner(System.in);
+         number = s.nextInt();
+        
+        int answer = countSetBits(number);
+        System.out.println("The number of set bits in the given number are " + answer);
+	}
+}
+
+
+
+5)
+import java.util.*;
+
+public class System
+{  
+    public static int findOddOccuring(int[] arr)
+    {
+        int xor = 0;
+        for (int i: arr) 
+        {
+            xor = xor ^ i;
+        }
+        return xor;
+    }
+	public static void main(String[] args) 
+    {
+		int n;  
+        Scanner sc=new Scanner(System.in);  
+        System.out.print("Enter the number of elements you want to store: ");  
+        n=sc.nextInt();  
+        int[] array = new int[10];  
+        System.out.println("Enter the elements of the array: ");  
+        for(int i=0; i<n; i++)  
+        {  
+            array[i]=sc.nextInt();  
+        }
+     System.out.println("The odd occurring element is " + findOddOccuring(array));
+	}
+}
